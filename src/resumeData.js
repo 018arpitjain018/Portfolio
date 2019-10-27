@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Python and React/React-Native Developer",
     "linkedinId":"arpitjain018",
     "skypeid": "018arpitjain018",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "I like dealing in various parts of FullStack/Software development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
