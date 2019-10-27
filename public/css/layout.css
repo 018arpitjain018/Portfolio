@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-image.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -95,7 +95,8 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #EA5F03; }
+/* 11ABB0 */
 
 /* scrolldown link */
 header .scrolldown a {
@@ -117,7 +118,33 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #EA5F03; }
+
+/* Some extra random css */
+header .card {
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+
+   background-color: #191919;
+ }
+ 
+ /* On mouse-over, add a deeper shadow */
+ header .card:hover {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+ 
+ /* Add some padding inside the card container */
+ header .container {
+   padding: 2px 16px;
+ }
+
+ header .content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+ }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -251,7 +278,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #EA5F03;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -355,6 +382,36 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.python {
+   width: 75%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+.react-native {
+   width: 62%;
+   -moz-animation: react-native 2s ease;
+   -webkit-animation: react-native 2s ease;
+}
+.django {
+   width: 62%;
+   -moz-animation: django 2s ease;
+   -webkit-animation: django 2s ease;
+}
+.javascript {
+   width: 50%;
+   -moz-animation: javascript 2s ease;
+   -webkit-animation: javascript 2s ease;
+}
+.sql {
+   width: 50%;
+   -moz-animation: sql 2s ease;
+   -webkit-animation: sql 2s ease;
+}
+.mongodb {
+   width: 50%;
+   -moz-animation: mongodb 2s ease;
+   -webkit-animation: mongodb 2s ease;
+}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -377,6 +434,30 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 80%;  }
 }
 @-moz-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes react-native {
+  0%   { width: 0px;  }
+  100% { width: 62%;  }
+}
+@-moz-keyframes django {
+  0%   { width: 0px;  }
+  100% { width: 62%;  }
+}
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes mongodb {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
@@ -405,6 +486,30 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+@-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-webkit-keyframes react-native {
+   0%   { width: 0px;  }
+   100% { width: 62%;  }
+ }
+ @-webkit-keyframes django {
+   0%   { width: 0px;  }
+   100% { width: 62%;  }
+ }
+ @-webkit-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes sql {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes mongodb {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -1002,5 +1107,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #EA5F03; }
 

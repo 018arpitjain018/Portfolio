@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
+    const linkedinUrl = "https://www.linkedin.com/in/" + resumeData.linkedinId
+
     return (
       <section id="contact">
           <div className="row section-head">
@@ -14,9 +16,11 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
+                <a target="_blank" href={linkedinUrl}>
                 <h4>Linked in :
                   {resumeData.linkedinId}
                 </h4>
+                </a>
               </div>
             </aside>
           </div>
